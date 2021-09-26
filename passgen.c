@@ -29,6 +29,7 @@ program_params handle_program_input(int argc, char* argv[]);
 size_t get_base_size(unsigned int flag);
 void to_upper_case(char* str);
 char* new_charset_base(unsigned int flag);
+uint64_t nano_since_epoch(void);
 char* produce_password(char* character_base, unsigned int password_length);
 
 int main(int argc, char* argv[])
