@@ -72,7 +72,7 @@ program_params handle_program_input(int argc, char* argv[])
     program_params pparams;
     int i;
     pparams.flags = LOWER_LETTERS|UPPER_LETTERS|P_NUMBERS|P_SYMBOLS;
-    pparams.pswd_length = 16;
+    pparams.pswd_length = DEFAULT_PASS_SIZE;
     for(i = 1; i < argc; i++) 
     {
         char* arg = argv[i];
